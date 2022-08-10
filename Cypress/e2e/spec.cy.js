@@ -1,4 +1,4 @@
-/*describe('backoffice test', () => {
+describe('backoffice test', () => {
   it('Visits the BackOffice', () => {
     cy.visit('http://103.105.211.138:2020/backoffice/account/login')
     cy.wait(3000)
@@ -18,5 +18,5 @@
 //cy.get("input[formcontrolname=productName]").type("testing");
 
   })
-})*/
+})
 

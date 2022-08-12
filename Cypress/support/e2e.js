@@ -1,4 +1,4 @@
-import 'cypress-mochawesome-reporter/register';
+
 // ***********************************************************
 // This example support/e2e.js is processed and
 // loaded automatically before your test files.
@@ -16,6 +16,6 @@ import 'cypress-mochawesome-reporter/register';
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-
+import 'cypress-mochawesome-reporter/register';
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

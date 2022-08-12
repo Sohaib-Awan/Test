@@ -50,7 +50,7 @@ describe('backoffice testing', () => {
       cy.visit('http://103.105.211.138:2020/backoffice/account/login')
       cy.wait(3000)
       cy.get("input[name=name]").type(0);
-      cy.get('.signin_blk1').click()
+      cy.get('.signin_blk').click()
     cy.wait(3000)
    // cy.screenshot()
     })

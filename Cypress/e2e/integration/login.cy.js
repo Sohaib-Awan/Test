@@ -44,7 +44,6 @@ describe('backoffice testing', () => {
       cy.wait(3000)
       cy.get('.signin_blk').click()
     cy.wait(3000)
-   // cy.screenshot()
     })
     it('login test case 7', () => {
       cy.visit('http://103.105.211.138:2020/backoffice/account/login')

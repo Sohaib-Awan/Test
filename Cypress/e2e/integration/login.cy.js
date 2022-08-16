@@ -57,7 +57,7 @@ describe('backoffice testing', () => {
     it('login test case 8', () => {
       cy.visit('http://103.105.211.138:2020/backoffice/account/login')
       cy.wait(3000)
-    cy.get("input[name=name]").type(44444);
+    cy.get("input[name=nam]").type(44444);
     cy.get("input[name=password]").type(4547878).type("{enter}");
     cy.wait(3000)  
    // cy.screenshot()

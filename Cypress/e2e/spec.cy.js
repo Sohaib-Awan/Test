@@ -15,8 +15,8 @@
  
   cy.wait(6000)
   cy.get('.button.addPro.button.tooltip_cvr.ng-star-inserted').click({ force: true})        
-//cy.get("input[formcontrolname=productName]").type("testing");*/
+  cy.get("input[formcontrolname=productName]").type("testing");
 
-  //})
+  })*/
 
 

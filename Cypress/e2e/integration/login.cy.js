@@ -56,7 +56,7 @@ describe('backoffice testing', () => {
       cy.wait(3000)
     cy.get("input[name=name]").type(44444);
     cy.get("input[name=password]").type(4547878).type("{enter}");
-    cy.wait(3000)  
+    cy.wait(6000)  
     
   })
   })

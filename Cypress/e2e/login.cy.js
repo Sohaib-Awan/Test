@@ -5,7 +5,7 @@ describe('backoffice testing', () => {
   cy.get("input[name=name]").type(0);
   cy.get("input[name=password]").type(31862018).type("{enter}");
   cy.wait(3000)
- // cy.screenshot()  
+ cy.screenshot()  
 })
     it('login test case 2', () => {
       cy.visit('http://103.105.211.138:2020/backoffice/account/login')
@@ -13,9 +13,9 @@ describe('backoffice testing', () => {
     cy.get("input[name=name]").type(1121121);
     cy.get("input[name=password]").type(31862018).type("{enter}");
     cy.wait(3000)
-   // cy.screenshot()  
+   cy.screenshot()  
   })
-    it('login test case 3', () => {
+  /*  it('login test case 3', () => {
       cy.visit('http://103.105.211.138:2020/backoffice/account/login')
       cy.wait(3000)
     cy.get("input[name=name]").type(0);
@@ -58,5 +58,5 @@ describe('backoffice testing', () => {
     cy.get("input[name=password]").type(4547878).type("{enter}");
     cy.wait(3000)  
     
-  })
+  })*/
   })
